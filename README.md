@@ -81,8 +81,8 @@ sudo service kubelet start
 ## Development Build Notes
 
 * extract [kubernetes-server-linux-amd64.tar.gz](https://github.com/GoogleCloudPlatform/kubernetes/releases) to kubernetes/source
-* set the version number in `build_kubernetes.sh`
-* run `/build_kubernetes.sh`
+* set the version number in `./build_kubernetes`
+* run `./build_kubernetes`
 
 ## Requirements
 
