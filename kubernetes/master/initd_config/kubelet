@@ -1,0 +1,1 @@
+DAEMON_ARGS="--address=127.0.0.1 --api_server=127.0.0.1:8080 --port=10250 --v=2 --config=/etc/kubernetes/manifests"

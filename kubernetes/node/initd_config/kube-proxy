@@ -1,0 +1,2 @@
+#Readonly ok
+DAEMON_ARGS="$DAEMON_ARGS --master=http://192.168.200.2:8080 --v=2"

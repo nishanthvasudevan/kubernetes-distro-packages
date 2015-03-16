@@ -1,0 +1,1 @@
+DAEMON_ARGS="$DAEMON_ARGS --master=127.0.0.1:8080 --machines=192.168.200.3 --v=2"
