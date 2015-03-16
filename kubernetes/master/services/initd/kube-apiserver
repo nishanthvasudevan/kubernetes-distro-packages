@@ -16,7 +16,7 @@
 PATH=/sbin:/usr/sbin:/bin:/usr/bin
 DESC="The Kubernetes API server"
 NAME=kube-apiserver
-DAEMON=/usr/local/bin/kube-apiserver
+DAEMON=/usr/bin/kube-apiserver
 DAEMON_LOG_FILE=/var/log/$NAME.log
 PIDFILE=/var/run/$NAME.pid
 SCRIPTNAME=/etc/init.d/$NAME

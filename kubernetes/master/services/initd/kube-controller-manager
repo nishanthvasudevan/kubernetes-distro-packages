@@ -17,7 +17,7 @@
 PATH=/sbin:/usr/sbin:/bin:/usr/bin
 DESC="The Kubernetes container manager"
 NAME=kube-controller-manager
-DAEMON=/usr/local/bin/kube-controller-manager
+DAEMON=/usr/bin/kube-controller-manager
 DAEMON_ARGS=""
 DAEMON_LOG_FILE=/var/log/$NAME.log
 PIDFILE=/var/run/$NAME.pid

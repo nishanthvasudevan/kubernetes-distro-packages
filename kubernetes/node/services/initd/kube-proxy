@@ -17,7 +17,7 @@
 PATH=/sbin:/usr/sbin:/bin:/usr/bin
 DESC="The Kubernetes network proxy"
 NAME=kube-proxy
-DAEMON=/usr/local/bin/kube-proxy
+DAEMON=/usr/bin/kube-proxy
 DAEMON_ARGS=""
 DAEMON_LOG_FILE=/var/log/$NAME.log
 PIDFILE=/var/run/$NAME.pid
