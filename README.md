@@ -1,10 +1,12 @@
-# K8s Distro Builder
+# Kubernetes Linux Distribution Packages Builder
 
 
 ## Quick Install (RedHat 7, CentOS 7, Debian 7, Ubuntu 14.x)
 
-Kubernetes master: `curl -sSL https://get.kismatic.com/kubernetes/master.sh | sudo sh`
-Kubernetes nodes: `curl -sSL https://get.kismatic.com/kubernetes/node.sh | sudo sh`
+* Kubernetes master:
+`curl -sSL https://get.kismatic.com/kubernetes/master.sh | sudo sh`
+* Kubernetes nodes:
+`curl -sSL https://get.kismatic.com/kubernetes/node.sh | sudo sh`
 
 * Requirements:
   * Install [etcd](https://github.com/coreos/etcd) (on master or a separate etcd cluster)
@@ -82,9 +84,14 @@ sudo service kubelet start
 * set the version number in `build_kubernetes.sh`
 * run `/build_kubernetes.sh`
 
-### Requirements
+## Requirements
 
 * ruby
 * prerequisites:
 
      gem install fpm
+
+## Authors
+
+   * BC Broussard
+   * Patrick Reilly
