@@ -1,7 +1,0 @@
-Origin: Kismatic, Inc Repository
-Label: Kismatic, Inc Repository
-Architectures: amd64
-Codename: kismatic
-Components: main
-Description: Apt repository for Kismatic builds of Kubernetes
-SignWith: F393393F
