@@ -89,7 +89,7 @@ sudo service kubelet start
 * ruby
 * prerequisites:
 
-     gem install fpm
+     `gem install fpm`
 
 ## Authors
 
