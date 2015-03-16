@@ -1,5 +1,8 @@
 # Kubernetes Linux Distribution Packages Builder
 
+### Kubernetes is in pre-production beta!
+While the concepts and architecture in Kubernetes represent years of experience designing and building large scale cluster manager at Google, the Kubernetes project is still under heavy development.  Expect bugs, design and API changes as we bring it to a stable, production product this year.
+
 
 ## Quick Install (RedHat 7, CentOS 7, Debian 7, Ubuntu 14.x)
 
